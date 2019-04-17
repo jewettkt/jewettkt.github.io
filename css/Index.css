@@ -109,6 +109,12 @@ img {
     width: 100%;
     overflow: auto;
 }
+h2 {
+  font-size: 125%;
+  font-family: "Arial Black", arial, sans-serif;
+  padding: 10px;
+  color: #628162;
+}
 footer {
     display: block;
     text-align: center;
