@@ -142,6 +142,7 @@ table td{
 }
 table td ul{
   padding-top: 0px;
+  vertical-align: top;
 }
 table th, table td {
   border-bottom: solid 3px #415A61;
