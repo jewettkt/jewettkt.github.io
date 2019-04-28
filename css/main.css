@@ -114,9 +114,40 @@ h2 {padding: 10px;
   font-weight: normal;
   font-size: 165%;
   font-family: "Arial Black", arial, sans-serif;
+  text-decoration: underline;
 }
 table {
   padding: 10px;
+  border-collapse: collapse;
+
+}
+table th {
+  color: #628162;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  text-align: left;
+text-decoration: underline;
+  
+}
+table td a {
+  font-family: arial, sans-serif;
+  color: #28303C;
+  text-decoration: none;
+}
+table td{
+  vertical-align: top;
+  color: #2A303C;
+  padding-top: 10px;
+}
+table td ul{
+  padding-top: 0px;
+}
+table th, table td {
+  border-bottom: solid 3px #415A61;
+  border-right: solid 3px #415A61;
+  border-spacing: 0px;
+  border-collapse: collapse;
 }
 footer {
     display: block;
